@@ -31,6 +31,10 @@ Pod::Spec.new do |s|
     s.dependency "RCTRequired"
     s.dependency "RCTTypeSafety"
     s.dependency "ReactCommon/turbomodule/core"
-    s.vendored_frameworks "libxcode.xcframework"
+    # s.dependency 'Nami', '3.1.34'
+    s.ios.vendored_frameworks = 'ios/NamiApple.xcframework'
+    # s.tvos.vendored_frameworks = 'ios/NamiApple.xcframework'
+    # s.source = { :path => '.' }
+    # s.vendored_frameworks = 'ios/libxcode.xcframework/ios-arm64/libxcode.framework', 'ios/libxcode.xcframework/ios-x86_64/libxcode.framework'
   end
 end

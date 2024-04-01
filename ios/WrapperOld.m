@@ -1,4 +1,5 @@
 #import <React/RCTBridgeModule.h>
+#import <NamiApple/NamiApple.h>
 
 @interface RCT_EXTERN_MODULE(WrapperOld, NSObject)
 
